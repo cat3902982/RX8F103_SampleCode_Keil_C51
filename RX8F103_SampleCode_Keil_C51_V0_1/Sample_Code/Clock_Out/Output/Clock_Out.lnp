@@ -1,0 +1,7 @@
+".\Output\main.obj",
+".\Output\Common.obj",
+".\Output\Delay.obj",
+".\Output\STARTUP.obj" 
+TO ".\Output\Clock_Out" 
+
+PRINT(".\Listings\Clock_Out.map") REMOVEUNUSED 

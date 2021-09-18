@@ -1,0 +1,1 @@
+"..\..\Common\Common.c" OMF2 OPTIMIZE (4,SPEED) BROWSE MODC2 INCDIR(..\..\Include) DEFINE (FOSC_160000) DEBUG PRINT(.\Listings\Common.lst) TABS (2) OBJECT(.\Output\Common.obj)

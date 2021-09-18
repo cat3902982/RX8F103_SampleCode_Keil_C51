@@ -1,0 +1,7 @@
+".\Output\main.obj",
+".\Output\Common.obj",
+".\Output\Delay.obj",
+".\Output\STARTUP.obj" 
+TO ".\Output\Ain0_Test" 
+
+PRINT(".\Listings\Ain0_Test.map") REMOVEUNUSED 

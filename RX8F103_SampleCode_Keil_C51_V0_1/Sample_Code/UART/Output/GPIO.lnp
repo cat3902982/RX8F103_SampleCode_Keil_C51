@@ -1,0 +1,7 @@
+".\Output\main.obj",
+".\Output\Common.obj",
+".\Output\Delay.obj",
+".\Output\STARTUP.obj" 
+TO ".\Output\GPIO" 
+
+PRINT(".\Listings\GPIO.map") REMOVEUNUSED 

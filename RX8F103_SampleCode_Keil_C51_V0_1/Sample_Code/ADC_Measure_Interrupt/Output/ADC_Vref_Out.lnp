@@ -1,0 +1,7 @@
+".\Output\main.obj",
+".\Output\Common.obj",
+".\Output\Delay.obj",
+".\Output\STARTUP.obj" 
+TO ".\Output\ADC_Vref_Out" 
+
+PRINT(".\Listings\ADC_Vref_Out.map") REMOVEUNUSED 
