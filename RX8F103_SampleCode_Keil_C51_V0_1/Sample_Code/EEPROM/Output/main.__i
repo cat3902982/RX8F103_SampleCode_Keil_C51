@@ -1,0 +1,1 @@
+"Code\main.c" OMF2 OPTIMIZE (4,SPEED) BROWSE MODC2 INCDIR(..\..\Include) DEFINE (FOSC_160000) DEBUG PRINT(.\Listings\main.lst) TABS (2) OBJECT(.\Output\main.obj)
