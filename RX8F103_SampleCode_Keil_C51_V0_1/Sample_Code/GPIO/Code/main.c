@@ -156,6 +156,7 @@ here after stack initialization.
 void main(void)
 {
 	Set_All_GPIO_Default_IO_Mode;
+	
 	P00_PushPull_Mode;
 	for(;;)
 	{

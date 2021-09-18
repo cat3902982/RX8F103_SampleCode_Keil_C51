@@ -1,4 +1,4 @@
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 1   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 1   
 
 
 C51 COMPILER V9.56.0.0, COMPILATION OF MODULE MAIN
@@ -62,7 +62,7 @@ line level    source
   30      =1  sfr B           = 0xf0;
   31      =1  sfr PSW         = 0xd0;
   32      =1  sfr SP          = 0x81;            //initialize value = 0x07
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 2   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 2   
 
   33      =1  sfr DPL         = 0x82;
   34      =1  sfr DPH         = 0x83;
@@ -126,7 +126,7 @@ line level    source
   92      =1  
   93      =1  sfr P2OEN       = 0xfb;
   94      =1  sfr P2PUN       = 0xf3;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 3   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 3   
 
   95      =1  sfr P2PDN       = 0xeb;
   96      =1  sfr P2ODN       = 0xe3;
@@ -190,7 +190,7 @@ line level    source
  154      =1  //----------------------------------------------------------
  155      =1  // 8.EUART  registers
  156      =1  //----------------------------------------------------------
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 4   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 4   
 
  157      =1  sfr S0CON   = 0x98;
  158      =1  sfr S1CON   = 0x9b;
@@ -254,7 +254,7 @@ line level    source
  216      =1  sfr MSIEN1    = 0x9f;
  217      =1  sfr MSADDR    = 0x97;
  218      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 5   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 5   
 
  219      =1  //----------------------------------------------------------
  220      =1  //----------------------------------------------------------
@@ -318,7 +318,7 @@ line level    source
  278      =1  sbit P0_0       = P0^0;
  279      =1  sbit P0_1       = P0^1;
  280      =1  sbit P0_2       = P0^2;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 6   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 6   
 
  281      =1  sbit P0_3       = P0^3;
  282      =1  sbit P0_4       = P0^4;
@@ -382,7 +382,7 @@ line level    source
  340      =1  //----------------------------------------------------------
  341      =1  sbit ELVD      = IEN1^5;
  342      =1  sbit ELVDCP    = IEN1^4;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 7   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 7   
 
  343      =1  sbit ERTC      = IEN1^3;
  344      =1  sbit EI2CFIFO  = IEN1^2;
@@ -446,7 +446,7 @@ line level    source
  402      =1  sbit IAPFAIL      = IAPCTRL^4;
  403      =1  sbit IAPRD        = IAPCTRL^3;
  404      =1  sbit IAPER        = IAPCTRL^2;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 8   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 8   
 
  405      =1  sbit IAPWR        = IAPCTRL^1;
  406      =1  sbit IAPGO        = IAPCTRL^0;
@@ -510,7 +510,7 @@ line level    source
   23      =1   
   24      =1  #include <intrins.h>
    1      =2  /*--------------------------------------------------------------------------
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 9   
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 9   
 
    2      =2  INTRINS.H
    3      =2  
@@ -574,7 +574,7 @@ line level    source
   45      =1  #define CHK_BIT1        0x02
   46      =1  #define CHK_BIT2        0x04
   47      =1  #define CHK_BIT3        0x08
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 10  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 10  
 
   48      =1  #define CHK_BIT4        0x10
   49      =1  #define CHK_BIT5        0x20
@@ -638,7 +638,7 @@ line level    source
  107      =1      ((n >> 3) & 0x02)   | \
  108      =1      ((n ) & 0x01)         \
  109      =1    )
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 11  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 11  
 
  110      =1    
  111      =1  #define Bin(n) LongToBin(0x##n##l)
@@ -702,7 +702,7 @@ line level    source
   55      =1  
   56      =1  #define baudrat_clk   sysclk/16                   //≤®Ãÿ¬  ±÷”
   57      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 12  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 12  
 
   58      =1  #define EEPROM1       0x1C00
   59      =1  #define EEPROM2       0x1d00
@@ -766,7 +766,7 @@ line level    source
    2      =1  #define __SFR_Assemble_H__
    3      =1  
    4      =1  //----------------------------------------------------------
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 13  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 13  
 
    5      =1  // 1.Core registers
    6      =1  //----------------------------------------------------------
@@ -830,7 +830,7 @@ line level    source
   64      =1  
   65      =1  //IAPLOCK
   66      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 14  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 14  
 
   67      =1  //IAPDATA
   68      =1  
@@ -894,7 +894,7 @@ line level    source
  126      =1  
  127      =1  //PCON    
  128      =1  #define set_LRCEN_SLEEP PCON       |= SET_BIT7
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 15  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 15  
 
  129      =1  #define set_LPEN_IDLE   PCON       |= SET_BIT6
  130      =1  #define set_DEEPSLEEP   PCON       |= SET_BIT2 
@@ -958,7 +958,7 @@ line level    source
  188      =1  //SFR P2ODN       = 0xe3;
  189      =1  //SFR P2HC0       = 0xd3;
  190      =1  //SFR P2IEN       = 0xcb;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 16  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 16  
 
  191      =1  //SFR P2IRQ       = 0xc3;
  192      =1  //SFR P012IRQCON    = 0xfc;
@@ -1022,7 +1022,7 @@ line level    source
  250      =1                            
  251      =1  #define clr_PWMPORTEN3    PWMPORTEN3  = 0
  252      =1  #define clr_PWMPORTEN2    PWMPORTEN2  = 0
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 17  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 17  
 
  253      =1  #define clr_PWMPORTEN1    PWMPORTEN1  = 0
  254      =1  #define clr_PWMPORTEN0    PWMPORTEN0  = 0
@@ -1086,7 +1086,7 @@ line level    source
  312      =1  #define set_P0OEN6   P0OEN    |= SET_BIT6
  313      =1  #define set_P0OEN5   P0OEN    |= SET_BIT5
  314      =1  #define set_P0OEN4   P0OEN    |= SET_BIT4
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 18  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 18  
 
  315      =1  #define set_P0OEN3   P0OEN    |= SET_BIT3
  316      =1  #define set_P0OEN2   P0OEN    |= SET_BIT2 
@@ -1150,7 +1150,7 @@ line level    source
  374      =1  #define set_P0ODN1   P0ODN    |= SET_BIT1
  375      =1  #define set_P0ODN0   P0ODN    |= SET_BIT0
  376      =1                              
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 19  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 19  
 
  377      =1  #define clr_P0ODN7   P0ODN    &= ~SET_BIT7
  378      =1  #define clr_P0ODN6   P0ODN    &= ~SET_BIT6
@@ -1214,7 +1214,7 @@ line level    source
  436      =1  #define clr_P0IEN5   P0IEN    &= ~SET_BIT5
  437      =1  #define clr_P0IEN4   P0IEN    &= ~SET_BIT4
  438      =1  #define clr_P0IEN3   P0IEN    &= ~SET_BIT3
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 20  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 20  
 
  439      =1  #define clr_P0IEN2   P0IEN    &= ~SET_BIT2
  440      =1  #define clr_P0IEN1   P0IEN    &= ~SET_BIT1
@@ -1278,7 +1278,7 @@ line level    source
  498      =1  #define clr_P1PUN0   P1PUN    &= ~SET_BIT0
  499      =1  
  500      =1  //P1PDN
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 21  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 21  
 
  501      =1  #define set_P1PDN7   P1PDN    |= SET_BIT7
  502      =1  #define set_P1PDN6   P1PDN    |= SET_BIT6
@@ -1342,7 +1342,7 @@ line level    source
  560      =1  #define set_P1HC0_5   P1HC0    |= SET_BIT5
  561      =1  #define set_P1HC0_4   P1HC0    |= SET_BIT4
  562      =1  #define set_P1HC0_3   P1HC0    |= SET_BIT3
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 22  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 22  
 
  563      =1  #define set_P1HC0_2   P1HC0    |= SET_BIT2
  564      =1  #define set_P1HC0_1   P1HC0    |= SET_BIT1
@@ -1406,7 +1406,7 @@ line level    source
  622      =1  #define set_P2PUN1   P2PUN    |= SET_BIT1
  623      =1  #define set_P2PUN0   P2PUN    |= SET_BIT0
  624      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 23  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 23  
 
  625      =1  #define clr_P2PUN1   P2PUN    &= ~SET_BIT1
  626      =1  #define clr_P2PUN0   P2PUN    &= ~SET_BIT0
@@ -1470,7 +1470,7 @@ line level    source
  684      =1  // 4.GPIO registers END
  685      =1  //----------------------------------------------------------
  686      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 24  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 24  
 
  687      =1  //----------------------------------------------------------
  688      =1  // 5.Timer0,1  registers
@@ -1534,7 +1534,7 @@ line level    source
  746      =1  //SFR PWMFBCON0   = 0xa5;
  747      =1  //SFR PWMFBCON1   = 0xa6;
  748      =1  //SFR PWMDTCON    = 0x9e;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 25  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 25  
 
  749      =1  //SFR PWMDTCYC    = 0x96;
  750      =1  //SFR PWMPL       = 0xce;
@@ -1598,7 +1598,7 @@ line level    source
  808      =1  #define set_PWM2MEN   PWMMASKEN    |= SET_BIT2
  809      =1  #define set_PWM1MEN   PWMMASKEN    |= SET_BIT1
  810      =1  #define set_PWM0MEN   PWMMASKEN    |= SET_BIT0
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 26  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 26  
 
  811      =1  
  812      =1  #define clr_PWM5MEN   PWMMASKEN    &= ~SET_BIT5
@@ -1662,7 +1662,7 @@ line level    source
  870      =1  //PWMFBCON0
  871      =1  #define set_GPIOFBCON1  PWMFBCON0    |= SET_BIT5
  872      =1  #define set_GPIOFBCON0  PWMFBCON0    |= SET_BIT4
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 27  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 27  
 
  873      =1  #define set_GPIOFBEN    PWMFBCON0    |= SET_BIT1
  874      =1  #define set_ADCFBEN     PWMFBCON0    |= SET_BIT0
@@ -1726,7 +1726,7 @@ line level    source
  932      =1  //PWMPL
  933      =1  
  934      =1  //PWMPH
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 28  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 28  
 
  935      =1  
  936      =1  //PWM0DL
@@ -1790,7 +1790,7 @@ line level    source
  994      =1  //SFR S0BUF   = 0x99;
  995      =1  //SFR S1BUF   = 0x9c;
  996      =1  //----------------------------------------------------------
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 29  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 29  
 
  997      =1  //----------------------------------------------------------
  998      =1  //S0CON
@@ -1854,7 +1854,7 @@ line level    source
 1056      =1  //SFR ADDL        = 0xee;
 1057      =1  //SFR RC16MITUNE  = 0xe6;
 1058      =1  //SFR RC16MADJ    = 0xde;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 30  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 30  
 
 1059      =1  //SFR ADT         = 0xff;
 1060      =1  //SFR ADCON1      = 0xef;
@@ -1918,7 +1918,7 @@ line level    source
 1118      =1  #define clr_DATAX       ADCON2   &= ~SET_BIT6
 1119      =1  #define clr_MODE        ADCON2   &= ~SET_BIT5
 1120      =1  #define clr_EC          ADCON2   &= ~SET_BIT4
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 31  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 31  
 
 1121      =1  #define clr_CHS3        ADCON2   &= ~SET_BIT3
 1122      =1  #define clr_CHS2        ADCON2   &= ~SET_BIT2
@@ -1982,7 +1982,7 @@ line level    source
 1180      =1  
 1181      =1  //RC16MADJ
 1182      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 32  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 32  
 
 1183      =1  //----------------------------------------------------------
 1184      =1  // 9.Ananlog registers END
@@ -2046,7 +2046,7 @@ line level    source
 1242      =1  #define clr_SPE         SPICR   &= ~SET_BIT6
 1243      =1  #define clr_SPR2        SPICR   &= ~SET_BIT5
 1244      =1  #define clr_MSTR        SPICR   &= ~SET_BIT4
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 33  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 33  
 
 1245      =1  #define clr_CPOL        SPICR   &= ~SET_BIT3
 1246      =1  #define clr_CPHA        SPICR   &= ~SET_BIT2
@@ -2110,7 +2110,7 @@ line level    source
 1304      =1  #define set_GC          MSSTAT0    |= SET_BIT6
 1305      =1  #define set_SUNE        MSSTAT0    |= SET_BIT2
 1306      =1  #define set_SOVF        MSSTAT0    |= SET_BIT1
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 34  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 34  
 
 1307      =1  #define set_SNE         MSSTAT0    |= SET_BIT0
 1308      =1                          
@@ -2174,7 +2174,7 @@ line level    source
 1366      =1  #define set_BUSY        STCON    |= SET_BIT0
 1367      =1                          
 1368      =1  #define clr_WAIT        STCON   &= ~SET_BIT5
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 35  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 35  
 
 1369      =1  #define clr_STOP        STCON   &= ~SET_BIT3
 1370      =1  #define clr_SRST        STCON   &= ~SET_BIT2
@@ -2238,7 +2238,7 @@ line level    source
 1428      =1  //MCADDR
 1429      =1  
 1430      =1  //----------------------------------------------------------
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 36  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 36  
 
 1431      =1  // 12.I2CM & I2CS  registers END
 1432      =1  //----------------------------------------------------------
@@ -2302,7 +2302,7 @@ line level    source
 1490      =1  #define set_EI2CRXTX  EI2CRXTX  = 1
 1491      =1  #define set_ESPI      ESPI      = 1
 1492      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 37  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 37  
 
 1493      =1  #define clr_ELVD      ELVD      = 0
 1494      =1  #define clr_ELVDCP    ELVDCP    = 0
@@ -2366,7 +2366,7 @@ line level    source
 1552      =1  #define set_IP1H_RTC     IP1H    |= SET_BIT3
 1553      =1  #define set_IP1H_I2CFIFO IP1H    |= SET_BIT2
 1554      =1  #define set_IP1H_I2CTXRX IP1H    |= SET_BIT1
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 38  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 38  
 
 1555      =1  #define set_IP1H_SPI     IP1H    |= SET_BIT0
 1556      =1                 
@@ -2430,7 +2430,7 @@ line level    source
   44      =1  #define P01_Input_Pullup_Mode       set_P0OEN1;clr_P0PUN1;set_P0PDN1
   45      =1  #define P02_Input_Pullup_Mode       set_P0OEN2;clr_P0PUN2;set_P0PDN2
   46      =1  #define P03_Input_Pullup_Mode       set_P0OEN3;clr_P0PUN3;set_P0PDN3
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 39  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 39  
 
   47      =1  #define P04_Input_Pullup_Mode       set_P0OEN4;clr_P0PUN4;set_P0PDN4
   48      =1  #define P05_Input_Pullup_Mode       set_P0OEN5;clr_P0PUN5;set_P0PDN5
@@ -2494,7 +2494,7 @@ line level    source
  106      =1  #define P06_OpenDrain_Mode_DIS      set_P0ODN6
  107      =1  #define P07_OpenDrain_Mode_DIS      set_P0ODN7
  108      =1  #define P10_OpenDrain_Mode_DIS      set_P1ODN0
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 40  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 40  
 
  109      =1  #define P11_OpenDrain_Mode_DIS      set_P1ODN1
  110      =1  #define P12_OpenDrain_Mode_DIS      set_P1ODN2
@@ -2558,7 +2558,7 @@ line level    source
            =1     #define TIMER_DIV8_VALUE_100us      65536-100       //200*8/16000000      = 100 us      // Timer divider = 8
            =1     #define TIMER_DIV8_VALUE_200us      65536-200       //400*8/16000000      = 200 us      // Timer divider = 8
            =1     #define TIMER_DIV8_VALUE_500us      65536-500       //1000*8/16000000     = 500 us      // Timer divider = 8
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 41  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 41  
 
            =1     #define TIMER_DIV8_VALUE_1ms        65536-1000      //2000*8/16000000     = 1 mS,       // Timer divider = 8
            =1     #define TIMER_DIV8_VALUE_10ms       65536-10000     //20000*8/16000000    = 10 mS,      // Timer divider = 8
@@ -2622,7 +2622,7 @@ line level    source
  216      =1  #define IC7_P15_CAP0_FallingEdge_Capture    CAPCON0|=SET_BIT4;CAPCON1|=0x30;CAPCON1&=0xCF;CAPCON2|=SET_BIT4;
              -CAPCON3&=0xF0;CAPCON3|=0x08;
  217      =1  
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 42  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 42  
 
  218      =1  #define IC0_P12_CAP1_FallingEdge_Capture    CAPCON0|=SET_BIT5;CAPCON1|=0x0C;CAPCON1&=0xF3;CAPCON2|=SET_BIT5;
              -CAPCON3&=0x0F
@@ -2686,7 +2686,7 @@ line level    source
              -CAPCON3&=0x0F
  250      =1  #define IC1_P11_CAP1_RisingEdge_Capture     CAPCON0|=SET_BIT5;CAPCON1|=0x0C;CAPCON1&=0xF7;CAPCON2|=SET_BIT5;
              -CAPCON3&=0x0F;CAPCON3|=0x10;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 43  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 43  
 
  251      =1  #define IC2_P10_CAP1_RisingEdge_Capture     CAPCON0|=SET_BIT5;CAPCON1|=0x0C;CAPCON1&=0xF7;CAPCON2|=SET_BIT5;
              -CAPCON3&=0x0F;CAPCON3|=0x20;
@@ -2750,7 +2750,7 @@ line level    source
              -APCON3&=0x0F;CAPCON3|=0x20;
  283      =1  #define IC3_P00_CAP1_BothEdge_Capture       CAPCON0|=SET_BIT5;CAPCON1|=0x0C;CAPCON1&=0xEF;CAPCON2|=SET_BIT5;C
              -APCON3&=0x0F;CAPCON3|=0x30;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 44  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 44  
 
  284      =1  #define IC3_P04_CAP1_BothEdge_Capture       CAPCON0|=SET_BIT5;CAPCON1|=0x0C;CAPCON1&=0xEF;CAPCON2|=SET_BIT5;C
              -APCON3&=0x0F;CAPCON3|=0x40;
@@ -2814,7 +2814,7 @@ line level    source
              -SFRS&=0xFE;EA=BIT_TMP       //P1.0 as PWM2 output enable
  327      =1  #define   PWM2_P10_OUTPUT_ENABLE    PIOCON0|=0x04                                                   //P1.0 as PWM2
  328      =1  #define   PWM1_P14_OUTPUT_ENABLE    BIT_TMP=EA;EA=0;TA=0xAA;TA=0x55;SFRS|=0x01;PIOCON1|=0x02;TA=0xAA;TA=0x55;
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 45  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 45  
 
              -SFRS&=0xFE;EA=BIT_TMP       //P1.4 as PWM1 output enable
  329      =1  #define   PWM1_P11_OUTPUT_ENABLE    PIOCON0|=0x02                                                   //P1.1 as PWM1 
@@ -2878,7 +2878,7 @@ line level    source
  383      =1  * For ADC setting 
  384      =1  *****************************************************************************************/
  385      =1  #define Enable_ADC_AIN0         ADCON2&=0xF0;ADCON2|=Bin(00000000);set_ADPORTEN0    //P10
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 46  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 46  
 
  386      =1  #define Enable_ADC_AIN1         ADCON2&=0xF0;ADCON2|=Bin(00000001);set_ADPORTEN1    //P11
  387      =1  #define Enable_ADC_AIN2         ADCON2&=0xF0;ADCON2|=Bin(00000010);set_ADPORTEN2    //P12
@@ -2942,7 +2942,7 @@ line level    source
               //#define P06_PushPull_Mode           clr_P0OEN6
               //#define P07_PushPull_Mode           clr_P0OEN7
               //#define P10_PushPull_Mode           clr_P1OEN0
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 47  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 47  
 
               //#define P11_PushPull_Mode           clr_P1OEN1
               //#define P12_PushPull_Mode           clr_P1OEN2
@@ -3006,7 +3006,7 @@ line level    source
               //#define P13_Input_Pulldown_Mode     set_P1OEN3;set_P1PUN3;clr_P1PDN3
               //#define P14_Input_Pulldown_Mode     set_P1OEN4;set_P1PUN4;clr_P1PDN4
               //#define P15_Input_Pulldown_Mode     set_P1OEN5;set_P1PUN5;clr_P1PDN5
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 48  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 48  
 
               //#define P16_Input_Pulldown_Mode     set_P1OEN6;set_P1PUN6;clr_P1PDN6
               //#define P17_Input_Pulldown_Mode     set_P1OEN7;set_P1PUN7;clr_P1PDN7
@@ -3062,18 +3062,19 @@ line level    source
  156          void main(void)
  157          {
  158   1        Set_All_GPIO_Default_IO_Mode;
- 159   1        P00_PushPull_Mode;
- 160   1        for(;;)
- 161   1        {
- 162   2          set_P00;
- 163   2          Timer0_Delay1ms(1);
- 164   2          clr_P00;
- 165   2          Timer0_Delay1ms(1);
- 166   2        }
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 49  
+ 159   1        
+ 160   1        P00_PushPull_Mode;
+ 161   1        for(;;)
+ 162   1        {
+ 163   2          set_P00;
+ 164   2          Timer0_Delay1ms(1);
+ 165   2          clr_P00;
+ 166   2          Timer0_Delay1ms(1);
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 49  
 
- 167   1      }
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 50  
+ 167   2        }
+ 168   1      }
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 50  
 
 ASSEMBLY LISTING OF GENERATED OBJECT CODE
 
@@ -3088,33 +3089,33 @@ ASSEMBLY LISTING OF GENERATED OBJECT CODE
 0005 F5D8              MOV     PORTMUX2,A
 0007 F5C0              MOV     PORTMUX3,A
 0009 F591              MOV     PORTMUX4,A
-                                           ; SOURCE LINE # 159
-000B 53F9FE            ANL     P0OEN,#0FEH
                                            ; SOURCE LINE # 160
-000E         ?C0001:
+000B 53F9FE            ANL     P0OEN,#0FEH
                                            ; SOURCE LINE # 161
+000E         ?C0001:
                                            ; SOURCE LINE # 162
-000E D280              SETB    P0_0
                                            ; SOURCE LINE # 163
+000E D280              SETB    P0_0
+                                           ; SOURCE LINE # 164
 0010 7F01              MOV     R7,#01H
 0012 7E00              MOV     R6,#00H
 0014 7D00              MOV     R5,#00H
 0016 7C00              MOV     R4,#00H
 0018 120000      E     LCALL   _Timer0_Delay1ms
-                                           ; SOURCE LINE # 164
-001B C280              CLR     P0_0
                                            ; SOURCE LINE # 165
+001B C280              CLR     P0_0
+                                           ; SOURCE LINE # 166
 001D 7F01              MOV     R7,#01H
 001F 7E00              MOV     R6,#00H
 0021 7D00              MOV     R5,#00H
 0023 7C00              MOV     R4,#00H
 0025 120000      E     LCALL   _Timer0_Delay1ms
-                                           ; SOURCE LINE # 166
+                                           ; SOURCE LINE # 167
 0028 80E4              SJMP    ?C0001
 002A 22                RET     
              ; FUNCTION main (END)
 
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 51  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 51  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -3177,7 +3178,7 @@ P1_3 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0093H  1
 P0_4 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0084H  1
 ADPORTEN4. . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00EAH  1
 P1_4 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 52  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 52  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -3240,7 +3241,7 @@ TCON . . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   0088H  1
 PWM4DH . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00ACH  1
 PWM0DL . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00C5H  1
 PWM5DH . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00AEH  1
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 53  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 53  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -3303,7 +3304,7 @@ RSTPORTEN. . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00F9H  1
 RS0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      00D3H  1
 TOPCON . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   008FH  1
 TR0. . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0089H  1
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 54  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 54  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -3367,7 +3368,7 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =     43    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
-C51 COMPILER V9.56.0.0   MAIN                                                              07/28/2021 09:59:05 PAGE 55  
+C51 COMPILER V9.56.0.0   MAIN                                                              09/18/2021 11:24:32 PAGE 55  
 
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----

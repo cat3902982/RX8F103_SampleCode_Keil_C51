@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.66.66.0                                                          09/07/2021  16:30:26  PAGE 1
+LX51 LINKER/LOCATER V4.66.66.0                                                          09/18/2021  11:24:32  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.66.66.0, INVOKED BY:
@@ -67,7 +67,7 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 0001A2H   0001CCH   00002BH   BYTE   UNIT     CODE           ?PR?MAIN?MAIN
 0001CDH   0001D8H   00000CH   BYTE   UNIT     CODE           ?C_C51STARTUP
 
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 2
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 2
 
 
 * * * * * * * * * * *  X D A T A   M E M O R Y  * * * * * * * * * * * * *
@@ -135,7 +135,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Output\GPIO (MAIN)
       01000116H   CODE     ---       ?C?ULCMP
       01000084H   CODE     ---       ?C?ULDIV
       01000127H   CODE     ---       ?C?ULSHR
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 3
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 3
 
 
       00000000H   NUMBER   ---       ?C?XDATASEG
@@ -203,7 +203,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Output\GPIO (MAIN)
 *SFR* 000000B8H.3 DATA     BIT       ERTC
 *SFR* 000000A8H.4 DATA     BIT       ES0
 *SFR* 000000A8H.2 DATA     BIT       ES1
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 4
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 4
 
 
 *SFR* 000000B8H   DATA     BIT       ESPI
@@ -271,7 +271,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Output\GPIO (MAIN)
 *SFR* 00000090H.3 DATA     BIT       P1_3
 *SFR* 00000090H.4 DATA     BIT       P1_4
 *SFR* 00000090H.5 DATA     BIT       P1_5
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 5
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 5
 
 
 *SFR* 00000090H.6 DATA     BIT       P1_6
@@ -339,7 +339,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Output\GPIO (MAIN)
 *DEL*:00000000H   CODE     ---       Receive_Data_From_UART1
 *SFR* 00000098H.4 DATA     BIT       REN0
 *SFR* 00000098H   DATA     BIT       RI0
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 6
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 6
 
 
 *SFR* 000000D0H.3 DATA     BIT       RS0
@@ -407,7 +407,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000D0H.6 SFRSYM    DATA     BIT       AC
       00000094H   SFRSYM    DATA     BYTE      SPIDR
       000000C8H.1 SFRSYM    DATA     BIT       IAPWR
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 7
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 7
 
 
       000000E8H   SFRSYM    DATA     BIT       PWMPORTEN4
@@ -475,7 +475,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       00000081H   SFRSYM    DATA     BYTE      SP
       000000D0H.2 SFRSYM    DATA     BIT       OV
       000000A4H   SFRSYM    DATA     BYTE      PWMINTF
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 8
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 8
 
 
       000000B2H   SFRSYM    DATA     BYTE      RTCSECOND
@@ -543,7 +543,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000A9H   SFRSYM    DATA     BYTE      IP0
       000000D8H.1 SFRSYM    DATA     BIT       UART1PORTEN
       000000A8H.3 SFRSYM    DATA     BIT       ET1
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 9
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 9
 
 
       00000088H.3 SFRSYM    DATA     BIT       TF0
@@ -611,7 +611,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000C8H.4 SFRSYM    DATA     BIT       IAPFAIL
       000000F8H.2 SFRSYM    DATA     BIT       BEEPPORTEN
       00000087H   SFRSYM    DATA     BYTE      LVDCP
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 10
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 10
 
 
       000000D0H   SFRSYM    DATA     BYTE      PSW
@@ -621,14 +621,14 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       010001A2H   LINE      CODE     ---       #156
       010001A2H   LINE      CODE     ---       #157
       010001A2H   LINE      CODE     ---       #158
-      010001ADH   LINE      CODE     ---       #159
-      010001B0H   LINE      CODE     ---       #160
+      010001ADH   LINE      CODE     ---       #160
       010001B0H   LINE      CODE     ---       #161
       010001B0H   LINE      CODE     ---       #162
-      010001B2H   LINE      CODE     ---       #163
-      010001BDH   LINE      CODE     ---       #164
-      010001BFH   LINE      CODE     ---       #165
-      010001CAH   LINE      CODE     ---       #166
+      010001B0H   LINE      CODE     ---       #163
+      010001B2H   LINE      CODE     ---       #164
+      010001BDH   LINE      CODE     ---       #165
+      010001BFH   LINE      CODE     ---       #166
+      010001CAH   LINE      CODE     ---       #167
       ---         BLOCKEND  ---      ---       LVL=0
 
       ---         MODULE    ---      ---       COMMON
@@ -679,7 +679,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       00000084H   SFRSYM    DATA     BYTE      DPL1
       000000C0H.2 SFRSYM    DATA     BIT       ADPORTEN2
       000000A0H.1 SFRSYM    DATA     BIT       P2_1
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 11
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 11
 
 
       00000090H.2 SFRSYM    DATA     BIT       P1_2
@@ -747,7 +747,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000D6H   SFRSYM    DATA     BYTE      PWMMASKEN
       000000BEH   SFRSYM    DATA     BYTE      PWM2DL
       000000E4H   SFRSYM    DATA     BYTE      RSTSTAT
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 12
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 12
 
 
       000000B5H   SFRSYM    DATA     BYTE      PWM3DL
@@ -815,7 +815,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       0000008EH   SFRSYM    DATA     BYTE      UID
       0000009CH   SFRSYM    DATA     BYTE      S1BUF
       000000E1H   SFRSYM    DATA     BYTE      P0ODN
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 13
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 13
 
 
       000000FEH   SFRSYM    DATA     BYTE      ADCVREFSEL
@@ -883,7 +883,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000F8H.4 SFRSYM    DATA     BIT       PWMPORTEN0
       00000090H   SFRSYM    DATA     BYTE      P1
       000000F8H.5 SFRSYM    DATA     BIT       PWMPORTEN1
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 14
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 14
 
 
       000000D7H   SFRSYM    DATA     BYTE      MSCON
@@ -951,7 +951,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000EFH   SFRSYM    DATA     BYTE      ADCON1
       000000E8H.5 SFRSYM    DATA     BIT       ADPORTEN8
       000000E7H   SFRSYM    DATA     BYTE      ADCON2
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 15
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 15
 
 
       000000C8H.7 SFRSYM    DATA     BIT       IAPLOCKEN
@@ -1019,7 +1019,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000F0H   SFRSYM    DATA     BYTE      B
       000000CDH   SFRSYM    DATA     BYTE      PWMINTCON
       000000E5H   SFRSYM    DATA     BYTE      IAPADDRL
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 16
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 16
 
 
       000000E0H   SFRSYM    DATA     BYTE      ACC
@@ -1087,7 +1087,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       000000F1H   SFRSYM    DATA     BYTE      P0PUN
       000000D8H   SFRSYM    DATA     BYTE      PORTMUX2
       000000D0H.5 SFRSYM    DATA     BIT       F0
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 17
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 17
 
 
       000000F2H   SFRSYM    DATA     BYTE      P1PUN
@@ -1155,7 +1155,7 @@ SYMBOL TABLE OF MODULE:  .\Output\GPIO (MAIN)
       010001D3H   LINE      CODE     ---       #185
       010001D6H   LINE      CODE     ---       #196
 
-LX51 LINKER/LOCATER V4.66.66.0                                                        09/07/2021  16:30:26  PAGE 18
+LX51 LINKER/LOCATER V4.66.66.0                                                        09/18/2021  11:24:32  PAGE 18
 
 
       ---         MODULE    ---      ---       ?C?CLDPTR
